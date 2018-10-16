@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Demystifying Email Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+        p {
+            font-size: 18px;
+        }
+        th,td {
+            font-size: 20px;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+        }
+        body {
+            margin: 20px;
+            padding: 20px;
+        }
+        .failed td {
+            border-bottom: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+<p>Good morning Shane,</p>
+<p>The following files, along with their status were processed yesterday.</p>
+<table>
+    <tr>
+        <th>Uploaded</th><th>Counter Party</th><th>File</th><th>Status</th><th>Message</th>
+    </tr>
+    <tr >
+        <td>10/02/2018 45:03:27</td>
+        <td>Counter Party Foo 1</td>
+        <td>Foo-asadasdf asdf adsf f-234.xslx</td>
+        <td>Success</td>
+        <td></td>
+    </tr>
+    <tr class="failed">
+        <td>10/02/2018 45:03:27</td>
+        <td>Counter Party Foo 2</td>
+        <td>Foo-asadf-234.xslx</td>
+        <td>Failed</td>
+        <td>asdfasdfasasdf asdf asdf asdfasdf asdf asdf df</td>
+    </tr>
+    <tr >
+        <td>10/02/2018 45:03:27</td>
+        <td>Counter Party Foo 3</td>
+        <td>Foo-asadf-234.xslx</td>
+        <td>Success</td>
+        <td></td>
+    </tr>
+</table>
+<p>Thank you,</p><p>Xpansiv</p>
+</body>
+</html>
